@@ -1,0 +1,114 @@
+body{
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70%; padding: 0% 10%; 
+    align-items: center; background-color: rgb(255, 217, 217);
+}
+.about-section, .hobbies-section, .activity-section, .memories-section{
+    width: 100%;
+    margin: 1rem 0;
+}
+.one .content-cont{
+    margin: .5rem 0;
+    display: flex; 
+    flex-direction: row-reverse;
+}
+.one .image-cont{
+    margin: 0cm 0.75cm;
+    display: flex;
+    justify-content: center;
+}
+.one .text-cont p {
+    text-align: justify;
+}
+.two {
+    text-align: justify;
+}
+.three {
+    text-align: justify;
+}
+.hobcontent-cont{
+    align-items: center;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.hobbies-subtitle {
+    display: block;
+    margin: 5%;
+}
+.hobbies-subtitle h2 {
+    text-align: center;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+}
+.hobcontent-cont .text-cont{
+    width: 80%;
+}
+.image-small-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+
+}
+.image-small-cont .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 90%;
+    margin: 0mm 5mm
+}
+
+
+.list-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+.list-images .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 40vh;
+    margin: .5rem;
+}
+/* memories */
+.four{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row-image{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.four .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 20vh;
+    margin: .2rem;
+}
